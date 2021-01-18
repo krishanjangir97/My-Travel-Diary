@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>
+        <style>
+            a:link {
+                color: green;
+                background-color: transparent;
+                text-decoration: none;
+                }
+
+                a:visited {
+                color: pink;
+                background-color: transparent;
+                text-decoration: none;
+                }
+
+                a:hover {
+                color: red;
+                background-color: transparent;
+                text-decoration: underline;
+                }
+
+                a:active {
+                color: yellow;
+                background-color: transparent;
+                text-decoration: underline;
+                }
+            .nav-items{
+                font-size: 18px;
+                color: blanchedalmond;
+                padding: 10px;
+            }
+            .nav-items:hover{
+                color: black;
+            }
+            #nav-panel{
+                background-color: darkblue;
+                padding: 15px;
+                text-align: center;
+                width: 100%;
+            }
+            .footer-nav{
+                background-color: black;
+                padding: 30px;
+                text-align: center;
+                width: 100%;
+                padding-left: 17px;
+            }
+            .footer-text{
+                font-size: 18px;
+                color: blanchedalmond;
+                padding: 10px;
+            }
+            .contact-area{
+                width: 400px;
+                height: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                background-color: white;
+                margin-bottom: 60px;
+            }
+            .input-item{
+                width: 320px;
+                padding: 10px;
+                margin-top: 20px;
+                border: none;
+                border-bottom: 2px ridge #ccc;
+            }
+            #submit-button{
+                border: 2px outset rgb(68, 33, 33);
+                background-color: darkblue;
+                font-size: 18px;
+                padding: 5px;
+                color: white;
+                margin-top: 65px;
+            }
+        </style>
+    </head>
+    <body style="margin: 0; background-color: #f2f6ff;">
+        <header>
+            <nav id ="nav-panel">
+                    <span class="nav-items"><a href="Home.html#trip-book">TRIPS</a></span>
+                    <span class="nav-items"><a href="About.html">ABOUT</a></span>
+                    <span class="nav-items"><a href="Contact.html">CONTACT</a></span>
+            </nav>
+        </header>
+       <main>
+           <div style="text-align: center; margin-top: 50px;">
+            <h3>Wanna come on my next trip? Contact Me.</h3>
+           </div>
+            <div class="contact-area">
+                <form>
+                   <div>
+                       <input class="input-item" type="text" name="full name" placeholder="Full Name" required>
+                   </div> 
+                   <div>
+                        <input class="input-item" type="email" name="email" placeholder="Email" required>
+                   </div> 
+                   <div>
+                        <input class="input-item" type="text" name="number" placeholder="Contact Number">
+                   </div> 
+                
+                   <div>
+                       <input id="submit-button" type="submit" value="Submit">
+                   </div> 
+                </form>
+            </div>
+       </main>
+        <footer>
+            <nav class ="footer-nav">
+                <span class="footer-text"><a href="Home.html#trip-book">TRIPS</a></span>
+                <span class="footer-text"><a href="About.html">ABOUT</a></span>
+                <span class="footer-text"><a href="Contact.html">CONTACT</a></span>
+            </nav>
+        </footer>
+    </body>
+</html>
